@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>foodgy</title>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&family=Montserrat:ital,wght@1,100&family=Special+Elite&display=swap" rel="stylesheet">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+  <!-- title section -->
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">foodgy </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feature">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Don’t be rude, give stomach some fooooood.</h1>
+          <button type="button" class="button1 btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="button1 btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-img" src="images/food.jpg" alt="food-img">
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- suggestion section -->
+  <section id="suggestion" class="white-section">
+    <div id="suggestion-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <img class="suggestion-img" src="images/chaat.jpg" alt="chaat">
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img class="suggestion-img" src="images/burger.jpg" alt="burger">
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img class="suggestion-img" src="images/paneer.jpg" alt="paneer">
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img class="suggestion-img" src="images/biryani.jpg" alt="biryani">
+            </div>
+
+          </div>
+
+        </div>
+        <div class="carousel-item container-fluid">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <img class="suggestion-img" src="images/pizza.jpg" alt="pizza">
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img class="suggestion-img" src="images/fries.jpg" alt="fries">
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img class="suggestion-img" src="images/momos.jpg" alt="momos">
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img class="suggestion-img" src="images/chicken.jpg" alt="chicken">
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#suggestion-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#suggestion-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+
+  </section>
+
+
+  <section class="colored-section" id="feature">
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" feature-box col-lg-4 ">
+          <i class="icon fas fa-heart fa-5x"></i>
+          <h3>No Minimum Order</h3>
+          <p class="ft-discripton">Order in for yourself or for the group, with no restrictions on order value</p>
+        </div>
+        <div class="feature-box col-lg-4 ">
+          <i class="icon fas fa-map-marker-alt fa-5x"></i>
+          <h3>Live Order Tracking</h3>
+          <p class="ft-discripton">Know where your order is at all times, from the restaurant to your doorstep</p>
+        </div>
+        <div class="feature-box col-lg-4 ">
+          <i class=" icon fas fa-motorcycle fa-5x"></i>
+          <h3>Lightning-Fast Delivery</h3>
+          <p class="ft-discripton">Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- pricing section -->
+  <section id="pricing" class="white-section">
+    <div class="container-fluid">
+      <h2 class="section-heading">Membership</h2>
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>3 Month STAR-Membership</h3>
+            </div>
+            <div class="card-body text-dark ">
+              <h2>₹299</h2>
+              <p>Faster Delivery</p>
+              <p>Addition discount on delivery</p>
+              <p>upto 40% off on dining</p>
+              <p>valid for 3 months</p>
+              <button type="button" class="button2 btn btn-light">Buy Plan</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Annual STAR-Membership</h3>
+            </div>
+            <div class="card-body text-dark ">
+              <h2>₹799</h2>
+              <p>Faster Delivery</p>
+              <p>Addition discount on delivery</p>
+              <p>upto 40% off on dining</p>
+              <p>valid for 1 year</p>
+              <button type="button" class="button2 btn btn-block btn-light">Buy Plan</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4">
+          <div class="card special">
+            <div class="card-header">
+              <h3>DOUBLE-STAR Membership</h3>
+            </div>
+            <div class="card-body text-dark">
+              <h2>STAR+ ₹199</h2>
+              <p>Free & Faster Delivery</p>
+              <p>No Distance fee.no Surge. Ever!</p>
+              <p>Addition discount on delivery</p>
+              <p>upto 40% off on dining</p>
+              <button type="button" class=" button2 btn btn-block btn-outline-light"><i class="far fa-star"></i> Buy Plan</button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+  </section>
+
+
+  <!-- login section -->
+  <section id="login" class="colored-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <img class="login-img" src="images/delivery.jpg" alt="delivery">
+          <h4>Delivery</h4>
+        </div>
+        <div class="col-md-4">
+          <img class="login-img" src="images/dining.jpg" alt="dining">
+          <h4>Dining</h4>
+        </div>
+        <div class="col-md-4">
+          <img class="login-img" src="images/nightlife.jpg" alt="nightlife">
+          <h4>Nightlife</h4>
+        </div>
+      </div>
+      <button class="btn btn-light btn-block button3 btn-lg" type="button">Login</button>
+      <button class="btn btn-light btn-block button3 btn-lg" type="button">Sign up</button>
+    </div>
+  </section>
+  <!-- contact section -->
+  <footer class="white-section" id="contact">
+    <div class="container-fluid">
+      <i class="footer-icon fab fa-facebook-f fa-2x"></i>
+      <i class="footer-icon fab fa-instagram fa-2x"></i>
+      <i class="footer-icon fab fa-twitter fa-2x"></i>
+      <i class="footer-icon fas fa-envelope fa-2x "></i>
+      <p class="footer-text">© Copyright 2021 foodgy</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

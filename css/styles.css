@@ -1,0 +1,190 @@
+body {
+  text-align: center;
+  font-family: 'Eczar', serif;
+}
+
+/* heading */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Eczar-Bold';
+}
+
+p {
+  color: #6b705c;
+  font-size: 1rem;
+}
+
+.big-heading {
+  font-family: "Eczar-Black";
+  font-size: 4rem;
+  line-height: 1.5
+}
+
+.section-heading {
+  font-size: 3rem;
+}
+
+/* containers */
+#title .container-fluid {
+  padding: 3% 10% 7%;
+}
+
+#suggestion .container-fluid {
+  padding: 10% 8%;
+}
+
+#feature .container-fluid {
+  padding: 7% 15%;
+}
+
+#pricing .container-fluid {
+  padding: 3% 5%;
+}
+
+#login .container-fluid {
+  padding: 5% 10%;
+}
+
+#contact .container-fluid {
+  padding: 3% 10%;
+}
+
+/* colours */
+.colored-section {
+  background-color: #e76f51;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 0 0 3rem;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: 'Special Elite', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+/* title section */
+#title {
+  text-align: left;
+}
+
+.button1 {
+  margin: 3% 3% 0 0;
+  font-size: 1.5rem;
+}
+
+.title-img {
+  width: 30%;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 15%;
+}
+
+/* suggestion section */
+#suggestion {
+  position: relative;
+  z-index: 2;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  outline: black;
+  background-color: black;
+  background-size: 50%, 50%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.suggestion-img {
+  border-radius: 100%;
+  width: 80%;
+  padding: 2% 1%;
+}
+
+/* feature section */
+.feature-box {
+  padding: 0 3%;
+}
+
+.icon {
+  color: #ffe8d6;
+  margin: 7% 0;
+}
+
+.icon:hover {
+  color: #fff;
+}
+
+.ft-discripton {
+  color: #ffe8d6;
+}
+
+/* pricing */
+.card {
+  background-color: #ffe8d6;
+}
+
+.special {
+  background-color: #ddbea9;
+}
+
+.pricing-column {
+  padding: 3% 5%;
+}
+
+.button2 {
+  border-radius: 45%;
+}
+
+/* login section */
+.login-img {
+  width: 40%;
+  padding-bottom: 5%;
+}
+
+.button3 {
+  margin: 5% 1% 0;
+  background-color: #ffe8d6;
+  border-radius: 20%;
+}
+
+/* contact section */
+.footer-icon {
+  margin: 20px 10px;
+}
+
+.footer-text {
+  font-size: 1.25rem;
+  letter-spacing: 1.35;
+}
+
+@media (max-width: 970px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
