@@ -1,22 +1,27 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>foodgy</title>
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&family=Montserrat:ital,wght@1,100&family=Special+Elite&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-
-  <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&family=Montserrat:ital,wght@1,100&family=Special+Elite&display=swap" rel="stylesheet">
-
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
+
+<body>
 
 <body>
   <!-- title section -->
@@ -57,22 +62,22 @@
       </div>
     </div>
   </section>
-<!-- suggestion section -->
+  <!-- suggestion section -->
   <section id="suggestion" class="white-section">
     <div id="suggestion-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active container-fluid">
           <div class="row">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3 col-sm-6">
               <img class="suggestion-img" src="images/chaat.jpg" alt="chaat">
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3 col-sm-6">
               <img class="suggestion-img" src="images/burger.jpg" alt="burger">
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3 col-sm-6">
               <img class="suggestion-img" src="images/paneer.jpg" alt="paneer">
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3 col-sm-6">
               <img class="suggestion-img" src="images/biryani.jpg" alt="biryani">
             </div>
 
@@ -81,16 +86,16 @@
         </div>
         <div class="carousel-item container-fluid">
           <div class="row">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3 col-sm-6">
               <img class="suggestion-img" src="images/pizza.jpg" alt="pizza">
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3 col-sm-6">
               <img class="suggestion-img" src="images/fries.jpg" alt="fries">
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3 col-sm-6">
               <img class="suggestion-img" src="images/momos.jpg" alt="momos">
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3 col-sm-6">
               <img class="suggestion-img" src="images/chicken.jpg" alt="chicken">
             </div>
 
@@ -109,7 +114,7 @@
 
   </section>
 
-
+<!-- feature section -->
   <section class="colored-section" id="feature">
     <div class="container-fluid">
       <div class="row">
@@ -164,7 +169,7 @@
               <p>Addition discount on delivery</p>
               <p>upto 40% off on dining</p>
               <p>valid for 1 year</p>
-              <button type="button" class="button2 btn btn-block btn-light">Buy Plan</button>
+              <button type="button" class="button2 btn btn-light">Buy Plan</button>
             </div>
           </div>
         </div>
@@ -179,7 +184,7 @@
               <p>No Distance fee.no Surge. Ever!</p>
               <p>Addition discount on delivery</p>
               <p>upto 40% off on dining</p>
-              <button type="button" class=" button2 btn btn-block btn-outline-light"><i class="far fa-star"></i> Buy Plan</button>
+              <button type="button" class=" button2 btn btn-outline-light"><i class="far fa-star"></i> Buy Plan</button>
             </div>
 
           </div>
@@ -209,10 +214,11 @@
           <h4>Nightlife</h4>
         </div>
       </div>
-      <button class="btn btn-light btn-block button3 btn-lg" type="button">Login</button>
-      <button class="btn btn-light btn-block button3 btn-lg" type="button">Sign up</button>
+      <button class="btn btn-light button3 btn-lg" type="button">Login</button>
+      <button class="btn btn-light button3 btn-lg" type="button">Sign up</button>
     </div>
   </section>
+
   <!-- contact section -->
   <footer class="white-section" id="contact">
     <div class="container-fluid">
